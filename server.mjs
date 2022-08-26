@@ -22,7 +22,7 @@ const userSchema = new mongoose.Schema({
 
 });
 
-const userModel = mongoose.model('User', userSchema);
+const userModel = mongoose.model('User1', userSchema);
 
 app.post('/signup', (req, res) => {
     let body = req.body;
